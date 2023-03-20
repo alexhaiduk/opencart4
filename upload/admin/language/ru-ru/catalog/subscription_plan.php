@@ -7,26 +7,25 @@ $_['text_success']          = 'Настройки успешно изменен�
 $_['text_list']             = 'Профили периодичности';
 $_['text_add']              = 'Добавить';
 $_['text_edit']             = 'Редактирование';
+$_['text_subscription']      = 'Subscription';
+$_['text_trial']            = 'Триал профиль';
 $_['text_day']              = 'День';
 $_['text_week']             = 'Неделя';
 $_['text_semi_month']       = 'Полмесяца';
 $_['text_month']            = 'Месяц';
 $_['text_year']             = 'Год';
-$_['text_recurring']        = '<p><i class="fa fa-info-circle"></i> Повторения выставления счета рассчитываются путем умножения частоты на цикл.</p><p>Например, если вы используете частоту "неделя" и цикл "2", то пользователю будет выставлен счет каждые 2 недели.</p><p>Продолжительность - количество оплат, которые пользователь должен сделать. Установите в 0, если Вы захотите отменить платежи.</p>';
-$_['text_profile']          = 'Периодичность';
-$_['text_trial']            = 'Триал профиль';
 
 // Entry
 $_['entry_name']            = 'Название';
-$_['entry_price']           = 'Цена';
-$_['entry_duration']        = 'Продолжительность';
-$_['entry_cycle']           = 'Цикл';
-$_['entry_frequency']       = 'Частота';
 $_['entry_trial_price']     = 'Цена';
 $_['entry_trial_duration']  = 'Продолжительность';
 $_['entry_trial_status']    = 'Статус';
 $_['entry_trial_cycle']     = 'Цикл';
 $_['entry_trial_frequency'] = 'Частота';
+$_['entry_price']           = 'Цена';
+$_['entry_duration']        = 'Продолжительность';
+$_['entry_cycle']           = 'Цикл';
+$_['entry_frequency']       = 'Частота';
 $_['entry_status']          = 'Статус';
 $_['entry_sort_order']      = 'Порядок сортировки';
 
@@ -35,9 +34,17 @@ $_['column_name']           = 'Название';
 $_['column_sort_order']     = 'Порядок сортировки';
 $_['column_action']         = 'Действие';
 
+// Help
+$_['help_trial_duration']   = 'The duration is the number of times the user will make a payment.';
+$_['help_trial_cycle']      = 'Subscription amounts are calculated by the frequency and cycles.';
+$_['help_trial_frequency']  = 'If you use a frequency of "week" and a cycle of "2", then the user will be billed every 2 weeks.';
+$_['help_duration']         = 'The duration is the number of times the user will make a payment, set this to 0 if you want payments until they are cancelled.';
+$_['help_cycle']            = 'Subscription amounts are calculated by the frequency and cycles.';
+$_['help_frequency']        = 'If you use a frequency of "week" and a cycle of "2", then the user will be billed every 2 weeks.';
+
 // Error
 $_['error_warning']         = 'Пожалуйста проверьте форму на ошибки!';
 $_['error_permission']      = 'У вас нет привилегий для редактирования!';
 $_['error_name']            = 'Имя должно содержать от 3 до 255 символов!';
+$_['error_trial_duration']  = 'Trial duration must be greater than 0!';
 $_['error_product']         = 'Данный профиль не может быть удален, т.к назначен %s товарам!';
-

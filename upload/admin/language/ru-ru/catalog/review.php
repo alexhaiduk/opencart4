@@ -23,15 +23,16 @@ $_['entry_author']      = 'Автор';
 $_['entry_rating']      = 'Рейтинг';
 $_['entry_status']      = 'Статус';
 $_['entry_text']        = 'Текст';
-$_['entry_date_added']  = 'Дата';
+$_['entry_date_from']   = 'Date From';
+$_['entry_date_to']     = 'Date To';
 
 // Help
 $_['help_product']      = '(Автозаполнение)';
 
 // Error
+$_['error_warning']     = 'Warning: Please check the form carefully for errors!';
 $_['error_permission']  = 'У Вас нет прав для изменения отзывов!';
 $_['error_product']     = 'Требуется выбрать товар!';
 $_['error_author']      = 'Имя автора должно содержать от 3 до 64 символов!';
 $_['error_text']        = 'Текст отзыва должен содержать хотя бы 1 символ!';
 $_['error_rating']      = 'Требуется установить рейтинг!';
-
