@@ -34,9 +34,10 @@ $_['entry_image']        = 'Изображение';
 $_['entry_sort_order']   = 'Порядок сортировки';
 
 // Error
+$_['error_warning']      = 'Warning: Please check the form carefully for errors!';
 $_['error_permission']   = 'У вас не достаточно прав для изменения опции!';
 $_['error_name']         = 'Имя опции должно содержать от 1 до 128 символов!';
 $_['error_type']         = 'Не указано значение опции!';
 $_['error_option_value'] = 'Значение опции должно содержать от 1 до 128 символов!';
+$_['error_value']        = 'Warning: This option value cannot be deleted as it is currently assigned to %s products!';
 $_['error_product']      = 'Внимание: Эту опцию нельзя удалить, так как назначена к %s товарам!';
-
