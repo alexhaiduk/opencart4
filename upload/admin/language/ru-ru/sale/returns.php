@@ -13,6 +13,7 @@ $_['text_order']           = 'Информация о заказе';
 $_['text_product']         = 'Товары';
 $_['text_history']         = 'Добавить';
 $_['text_history_add']     = 'Добавить в историю';
+$_['text_filter']          = 'Filter';
 
 // Column
 $_['column_return_id']     = '№ Возврата';
@@ -45,8 +46,8 @@ $_['entry_return_action']  = 'Действие по возврату';
 $_['entry_return_status']  = 'Статус возврата';
 $_['entry_notify']         = 'Клиент уведомлен';
 $_['entry_return_id']      = '№ Возврата';
-$_['entry_date_added']     = 'Дата добавления';
-$_['entry_date_modified']  = 'Дата изменения';
+$_['entry_date_from']     = 'Дата добавления';
+$_['entry_date_to']  = 'Дата изменения';
 
 // Help
 $_['help_product']         = '(Автодополнение)';
@@ -54,6 +55,7 @@ $_['help_product']         = '(Автодополнение)';
 // Error
 $_['error_warning']        = 'Внимательно проверьте форму на ошибки!';
 $_['error_permission']     = 'У Вас нет прав для изменения настроек Возвратов!';
+$_['error_return']         = 'Warning could not find selected return!';
 $_['error_order_id']       = 'Необходим № заказа!';
 $_['error_firstname']      = 'Имя должно быть от 1 до 32 символов!';
 $_['error_lastname']       = 'Фамилия должна быть от 1 до 32 символов!';
@@ -61,4 +63,3 @@ $_['error_email']          = 'E-Mail адрес введен неверно!';
 $_['error_telephone']      = 'Телефон должен быть от 3 до 32 символов!';
 $_['error_product']        = 'Наименование товара должно быть от 3 до 255 символов!';
 $_['error_model']          = 'Модель товара должна быть от 3 до 64 символов!';
-
