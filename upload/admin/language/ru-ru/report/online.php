@@ -20,9 +20,6 @@ $_['column_action']     = 'Действие';
 // Entry
 $_['entry_ip']          = 'IP';
 $_['entry_customer']    = 'Клиент';
-$_['entry_status']      = 'Статус';
-$_['entry_sort_order']  = 'Порядок сортировки';
 
 // Error
 $_['error_permission']  = 'У Вас нет прав для управления отчетом!';
-

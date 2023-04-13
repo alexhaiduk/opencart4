@@ -14,5 +14,3 @@ $_['entry_secret']     = 'Secret';
 $_['error_permission'] = 'У Вас нет прав для управления модулем!';
 $_['error_username']   = 'Username необходим!';
 $_['error_secret']     = 'Secret необходим!';
-
-

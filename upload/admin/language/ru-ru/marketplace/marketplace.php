@@ -22,6 +22,7 @@ $_['text_other']         = 'Разное';
 $_['text_free']          = 'Бесплатно';
 $_['text_paid']          = 'Платно';
 $_['text_purchased']     = 'Куплено';
+$_['text_recommended']   = 'Recommended';
 $_['text_date_modified'] = 'Дата изменения';
 $_['text_date_added']    = 'Дата добавления';
 $_['text_rating']        = 'Рейтинг';
@@ -30,6 +31,7 @@ $_['text_compatibility'] = 'Совместимость';
 $_['text_downloaded']    = 'Загружено';
 $_['text_member_since']  = 'Зарегистрирован с :';
 $_['text_price']         = 'Цена';
+$_['text_featured']      = 'Featured';
 $_['text_partner']       = 'Разработано OpenCart Партнером';
 $_['text_support']       = '12 месяцев бесплатной поддержки';
 $_['text_documentation'] = 'Документация включена';
@@ -43,9 +45,14 @@ $_['text_purchase']      = 'Пожалуйста, подтвердите, кто
 $_['text_pin']           = 'Пожалуйста, введите 4 цифры PIN кода. PIN код защищает ваш аккаунт.';
 $_['text_secure']        = 'Не сообщайте ваш PIN-код никому, включая разработчиков.';
 $_['text_name']          = 'Имя';
-$_['text_progress']      = 'Прогресс';
 $_['text_available']     = 'Доступно для установки';
 $_['text_action']        = 'Действие';
+$_['text_install']       = 'Install';
+$_['text_uninstall']     = 'Uninstall';
+$_['text_delete']        = 'Delete';
+$_['text_more']          = 'see more replies...';
+$_['text_leave']         = 'see more replies...';
+$_['text_refresh']       = 'refresh';
 
 // Entry
 $_['entry_pin']          = 'PIN';
@@ -60,15 +67,13 @@ $_['tab_comment']        = 'Комментарии';
 $_['button_opencart']    = 'API Магазина';
 $_['button_purchase']    = 'Купить';
 $_['button_view_all']    = 'Посмотреть все расширения';
-$_['button_get_support'] = 'Получить поддержку';
+$_['button_support'] = 'Получить поддержку';
 $_['button_comment']     = 'Комментарий';
 $_['button_reply']       = 'Ответить';
+$_['button_forgot_pin']  = 'Forgot PIN?';
 
 // Error
 $_['error_permission']   = 'У Вас нет прав для управления модулем!';
 $_['error_opencart']     = 'Внимание! Вы должны указать ваш OpenCart API до совершения покупки в данном магазине!';
-$_['error_install']      = 'Выполняется установка расширения, пожалуйста, подождите несколько секунд, прежде чем попытаться установить заново!';
 $_['error_purchase']     = 'Расширение не может быть куплено!';
 $_['error_download']     = 'Расширение не может быть загружено!';
-
-
