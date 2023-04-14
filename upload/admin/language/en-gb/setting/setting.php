@@ -165,7 +165,7 @@ $_['entry_error_log']                    = 'Log Errors';
 $_['entry_error_filename']               = 'Error Log Filename';
 $_['entry_status']                       = 'Status';
 
-// Help-----
+// Help
 $_['help_geocode']                       = 'Please enter your store location geocode manually.';
 $_['help_open']                          = 'Fill in your store\'s opening times.';
 $_['help_comment']                       = 'This field is for any special notes you would like to tell the customer i.e. Store does not accept cheques.';
