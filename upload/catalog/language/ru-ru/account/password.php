@@ -12,6 +12,6 @@ $_['entry_password'] = 'Пароль';
 $_['entry_confirm']  = 'Подтвердите пароль';
 
 // Error
+$_['error_token']    = 'Warning: Password token invalid!';
 $_['error_password'] = 'Пароль должен быть от 4 до 20 символов!';
 $_['error_confirm']  = 'Пароли и пароль подтверждения не совпадают!';
-

@@ -22,13 +22,14 @@ $_['entry_password']       = 'Пароль';
 $_['entry_confirm']        = 'Подтверждение пароля';
 
 // Error
+$_['error_token']          = 'Warning: Register token invalid!';
 $_['error_exists']         = 'Данный E-Mail уже зарегистрирован!';
+$_['error_customer_group'] = 'Customer Group does not appear to be valid!';
 $_['error_firstname']      = 'Имя должно быть от 1 до 32 символов!';
 $_['error_lastname']       = 'Фамилия должна быть от 1 до 32 символов!';
 $_['error_email']          = 'E-Mail введен неправильно!';
 $_['error_telephone']      = 'Телефон должен быть от 3 до 32 цифр!';
 $_['error_custom_field']   = '%s обязательно к заполнению!';
+$_['error_regex']          = '%s is not a valid input!';
 $_['error_password']       = 'В пароле должно быть от 4 до 20 символов!';
-$_['error_confirm']        = 'Пароли и пароль подтверждения не совпадают!';
 $_['error_agree']          = 'Вы должны прочитать и согласится с %s!';
-

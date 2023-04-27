@@ -27,10 +27,11 @@ $_['entry_bank_account_name']   = 'Корр. счет';
 $_['entry_bank_account_number'] = 'Расчетный счет';
 
 // Error
+$_['error_token']               = 'Warning: Affiliate token invalid!';
 $_['error_agree']               = 'Вы должны согласиться с %s!';
 $_['error_cheque']              = 'Имя получателя чека необходимо!';
 $_['error_paypal']              = 'PayPal Email аккаунт не корректный!';
 $_['error_bank_account_name']   = 'Корр. счет необходимо!';
 $_['error_bank_account_number'] = 'Расчетный счет необходимо!';
 $_['error_custom_field']        = '%s необходимо!';
-
+$_['error_regex']               = '%s is not a valid input!';
