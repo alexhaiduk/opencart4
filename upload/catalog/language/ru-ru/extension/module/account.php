@@ -18,5 +18,5 @@ $_['text_reward']      = 'Бонусные баллы';
 $_['text_return']      = 'Возвраты';
 $_['text_transaction'] = 'История транзакций';
 $_['text_newsletter']  = 'E-Mail рассылка';
-$_['text_recurring']   = 'Регулярные платежи';
+$_['text_subscription']   = 'Подписки';
 
